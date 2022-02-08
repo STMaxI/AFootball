@@ -15,6 +15,6 @@ MonoBehaviour:
   _type: 1
   _prefab: {fileID: 5859695903873768607, guid: 7722f1c94e592df4480a02846653ea47, type: 3}
   _speed: 8.58
-  _isRandomSpeed: 0
+  _isRandomSpeed: 1
   _rotationSpeed: 81
   _size: 1.078
