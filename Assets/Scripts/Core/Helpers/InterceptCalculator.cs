@@ -28,7 +28,6 @@ namespace AFootball.Core.Helpers
 
             var tmprt = Mathf.Sqrt(tmp);
             
-            //x = (  -b+sqrt( ((b)^2) * 4*a*c )  ) / 2a
             float t1 = (-(b) - tmprt) / (2 * a);
             float t2 = (-(b) + tmprt) / (2 * a);
 

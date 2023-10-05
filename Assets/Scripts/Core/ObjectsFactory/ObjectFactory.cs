@@ -13,8 +13,7 @@ namespace AFootball.Core.ObjectsFactory
                 if (Application.isEditor)
                 {
                     _scene = SceneManager.GetSceneByName(name);
-                    if (!_scene.isLoaded)
-                        _scene = SceneManager.CreateScene(name);
+                    _scene = SceneManager.CreateScene(name);
                 }
                 else
                 {
